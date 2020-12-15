@@ -7,4 +7,4 @@ I've tried to do this competition this year!  Here are my solutions (Written in 
 - Who knows when I will give up!
 - I will not release solutions for challenges which I have not completed
 
-Stars Earnt so far: 24*
+Stars Earnt so far: 26*
