@@ -3,7 +3,7 @@
 This repository will contain all my solutions for Advent of Code.
 
 ## 2015
-0*
+2*
 
 ## 2016 
 0*
@@ -18,5 +18,5 @@ This repository will contain all my solutions for Advent of Code.
 29*
 
 ## Overall
-31*
-Average per year: 5.17*
+33*
+Average per year: 5.5*
