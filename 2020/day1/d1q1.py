@@ -2,7 +2,7 @@ import csv
 import os
 
 print(os.getcwd())
-os.chdir("/home/low101043/Documents/adventOfCode/2020/day1")
+os.chdir("/home/low101043/Documents/adventOfCode/solutions/2020/day1")
 with open("day1Input1.txt") as data:
     file_to_read = data.read()
 
@@ -22,6 +22,7 @@ print(numbers)
 found = False
 number1 = numbers.pop()
 number2 = -1
+
 while not found and len(numbers) > 0:
     i = 0
     while (i < len(numbers) and not found):

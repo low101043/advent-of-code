@@ -2,7 +2,7 @@ import csv
 import os
 
 print(os.getcwd())
-os.chdir("/home/low101043/Documents/adventOfCode/2020/day12")
+os.chdir("/home/low101043/Documents/adventOfCode/solutions/2020/day12")
 with open("day12Input1.txt") as data:
     file_to_read = data.read()
 

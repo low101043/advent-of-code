@@ -9,7 +9,7 @@ def in_list(data, to_find):
     return False
 
 print(os.getcwd())
-os.chdir("/home/low101043/Documents/adventOfCode/2020/day4")
+os.chdir("/home/low101043/Documents/adventOfCode/solutions/2020/day4")
 with open("day4Input1.txt") as data:
     file_to_read = data.read()
 
