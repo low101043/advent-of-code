@@ -15,11 +15,11 @@ This repository will contain all my solutions for Advent of Code.
 4*
 
 ## 2019
-2*
+4*
 
 ## 2020
 29*
 
 ## Overall
-47*
-Average per year: 7.83*
+49*
+Average per year: 8.17*
