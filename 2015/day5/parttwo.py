@@ -46,8 +46,7 @@ def checkNiceness(string):
                 
 
 print(os.getcwd())
-os.chdir("/home/low101043/Documents/adventOfCode/solutions/2015/day5")
-with open("input.txt") as data:
+with open("2015/day5/input.txt") as data:
     file_to_read = data.read()
 
 print(parttwo(file_to_read))
