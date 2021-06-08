@@ -2,8 +2,7 @@ import csv
 import os
 
 print(os.getcwd())
-os.chdir("/home/low101043/Documents/adventOfCode/solutions/2020/day8")
-with open("day8Input1.txt") as data:
+with open("2020/day8/day8Input1.txt") as data:
     file_to_read = data.read()
 
 number_to_add = ""

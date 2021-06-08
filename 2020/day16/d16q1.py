@@ -38,8 +38,7 @@ def partOne(classes, other_ticket):
     return total_end
 
 print(os.getcwd())
-os.chdir("/home/low101043/Documents/adventOfCode/solutions/2020/day16")
-with open("day16Input1.txt") as data:
+with open("2020/day16/day16Input1.txt") as data:
     file_to_read = data.read()
 
 bags_split = file_to_read.split("\n")

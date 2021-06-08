@@ -3,8 +3,7 @@ import os
 from copy import copy, deepcopy
 
 print(os.getcwd())
-os.chdir("/home/low101043/Documents/adventOfCode/solutions/2020/day11")
-with open("day11Input1.txt") as data:
+with open("2020/day11/day11Input1.txt") as data:
     file_to_read = data.read()
 
 number_to_add = []

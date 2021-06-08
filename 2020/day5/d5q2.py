@@ -24,8 +24,7 @@ def convertLR(array_input):
     return row
 
 print(os.getcwd())
-os.chdir("/home/low101043/Documents/adventOfCode/solutions/2020/day5")
-with open("day5Input1.txt") as data:
+with open("2020/day5/day5Input1.txt") as data:
     file_to_read = data.read()
 
 number_to_add = []
