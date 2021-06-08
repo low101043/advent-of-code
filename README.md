@@ -6,7 +6,7 @@ No solutions are optimised or commented.  These are very bad solutions which jus
 There are no solutions for days which I have not completed.
 
 ## 2015
-9*
+11*
 
 ## 2016 
 6*
@@ -24,6 +24,6 @@ There are no solutions for days which I have not completed.
 29*
 
 ## Overall
-60*
+62*
 
-Average per year: 10*
+Average per year: 10.33*
