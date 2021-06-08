@@ -2,8 +2,11 @@
 
 This repository will contain all my solutions for Advent of Code.
 
+No solutions are optimised or commented.  These are very bad solutions which just happen to work!
+There are no solutions for days which I have not completed.
+
 ## 2015
-6*
+9*
 
 ## 2016 
 6*
@@ -21,5 +24,6 @@ This repository will contain all my solutions for Advent of Code.
 29*
 
 ## Overall
-57*
-Average per year: 9.5*
+60*
+
+Average per year: 10*
