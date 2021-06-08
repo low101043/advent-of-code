@@ -41,7 +41,7 @@ def partone(input):
 
 
 print(os.getcwd())
-with open("2016/day3/input.txt") as data:
+with open("2016/day1/input.txt") as data:
     file_to_read = data.read()
 
 

@@ -32,9 +32,52 @@ def partone(input):
 
     return two_letters * three_letters
             
+def parttwo(input):
+
+    input_split = input.split("\n")
+
+    found_diff = False
+    i = 0
+    j = 0
+
+    while not found_diff:
+        
+        check_against = input_split[i]
+
+        for box_id in input_split:
+            #print(check_against, box_id)
+            if box_id == check_against:
+                pass
+
+            else:
+                how_many_different = 0
+
+                for j, letter in enumerate(box_id):
+                    if letter != check_against[j]:
+                        how_many_different += 1
+
+                #print(how_many_different)
+
+                if how_many_different == 1:
+                    found_diff = True
+
+                    output = ""
+                    for j in range(len(check_against)):
+                        letter_one = check_against[j]
+                        letter_two = box_id[j]
+                        if letter_one == letter_two:
+                            output+= letter_one
+
+                    print( output)
+                    
+                                    
+
+        i += 1
 
 print(os.getcwd())
 with open("2018/day2/input.txt") as data:
     file_to_read = data.read()
 
 print(partone(file_to_read))
+
+print(parttwo(file_to_read))

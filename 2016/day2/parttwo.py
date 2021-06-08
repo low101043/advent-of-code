@@ -96,7 +96,7 @@ def number_here_two(input, pos):
                 
 
 print(os.getcwd())
-with open("2016/day3/input.txt") as data:
+with open("2016/day2/input.txt") as data:
     file_to_read = data.read()
 
 
