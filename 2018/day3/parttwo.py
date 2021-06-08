@@ -55,8 +55,7 @@ def partone(input):
 
 
 print(os.getcwd())
-os.chdir("/home/low101043/Documents/adventOfCode/solutions/2018/day3")
-with open("input.txt") as data:
+with open("2018/day3/input.txt") as data:
     file_to_read = data.read()
 
 print(partone(file_to_read))
