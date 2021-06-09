@@ -8,9 +8,12 @@ Stars
 - Day 1:  2 
 - Day 2:  2
 - Day 3:  2
-- Day 4: 2
+- Day 4:  2
+- Day 5:  2
+- Day 6:  2
 
-- Overall: 8*
+
+- Overall: 12*
 
 ## Which days I used help
 - Day 1 Part 1 (Embarrassing I know!).  Used https://github.com/rasbt/advent-of-code-2016/blob/master/python_code/aoc_01_01.py to work out solution.  Problem with my code was that I did not take full input of numbers. 
