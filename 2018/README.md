@@ -9,5 +9,6 @@ Stars
 - Day 1:  2 
 - Day 2:  2
 - Day 3:  2
+- Day 5:  2
 
-- Overall: 6*
+- Overall: 8*
