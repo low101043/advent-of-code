@@ -12,7 +12,7 @@ There are no solutions for days which I have not completed.
 14*
 
 ## 2017
-12*
+14*
 
 ## 2018
 8*
@@ -26,4 +26,4 @@ There are no solutions for days which I have not completed.
 ## Overall
 84*
 
-Average per year: 14*
+Average per year: 14.33*
