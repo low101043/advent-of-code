@@ -8,5 +8,6 @@ I've tried to do this competition this year!
 Stars 
 - Day 1:  2 
 - Day 2:  2
+- Day 3:  2
 
-- Overall: 4*
+- Overall: 6*
