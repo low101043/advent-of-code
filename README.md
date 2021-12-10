@@ -23,7 +23,10 @@ There are no solutions for days which I have not completed.
 ## 2020
 29*
 
-## Overall
-90*
+## 2021
+2*
 
-Average per year: 15*
+## Overall
+92*
+
+Average per year: 13.14*
