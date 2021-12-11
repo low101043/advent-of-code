@@ -7,5 +7,6 @@ This holds the solutions for 2021 Advent of Code.
 Stars 
 - Day 1:  2
 - Day 2:  2
+- Day 3:  2
 
 - Overall: 4*
