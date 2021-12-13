@@ -18,7 +18,7 @@ Stars
 - Day 10: 1
 - Day 11: 2 
 - Day 12: 2
-- Day 13: 2
+- Day 13: 1
 - Day 14: 2
 - Day 15: 2 
 - Day 16: 1 
