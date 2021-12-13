@@ -24,9 +24,9 @@ There are no solutions for days which I have not completed.
 29*
 
 ## 2021
-7*
+8*
 
 ## Overall
-97*
+98*
 
-Average per year: 13.86*
+Average per year: 14*
