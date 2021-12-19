@@ -34,6 +34,7 @@ def partOne(input_text):
 
     return len(new_set)
     
+    
 def folding(old_coords, instructions):
 
     for instruction in instructions:
@@ -50,7 +51,7 @@ def folding(old_coords, instructions):
                     new_set.add((new_x, coord[1]))
         else:
             for coord in old_coords:
-                print(coord)
+                #print(coord)
                 gap_to_line = coord[1] - number
                 if (gap_to_line < 0):
 
@@ -60,11 +61,20 @@ def folding(old_coords, instructions):
                     continue
                 new_y = number - gap_to_line
                 if new_y >= 0:
-            #     print((coord[0], new_y))
-                    new_set.add
+            #       print((coord[0], new_y))
+                    new_set.add((coord[0], new_y))
         old_coords = new_set
     return new_set
 
+
+def partOne_second_attempt(input_text):
+    instructions, coords = solution_in_list(input_text)
+    print(instructions)
+    set_instructions = set(coords)
+
+    final_coords = folding(set_instructions, instructions[:1])
+
+    print(len(final_coords))
 
 def partTwo(input_text):
     instructions, coords = solution_in_list(input_text)
@@ -73,6 +83,25 @@ def partTwo(input_text):
 
     final_coords = folding(set_instructions, instructions)
 
+    large_y = 0
+    large_x = 0
+
+    for coord in final_coords:
+        if coord[0] > large_x:
+            large_x = coord[0]
+
+        if coord[1] > large_y:
+            large_y = coord[1]
+
+    final_list = [["." for x in range(large_x+1)] for y in range(large_y+1)]
+
+    print(final_list)
+    print(large_x, large_y)
+
+    for coord in final_coords:
+        final_list[coord[1]][coord[0]] = "#"
+
+    print(final_list)
     print(final_coords)
     
 
@@ -99,4 +128,5 @@ with open("2021/day13/input.txt") as data:
     file_to_read = data.read()
 
 print(partOne(file_to_read))
+#partOne_second_attempt(file_to_read)
 print(partTwo(file_to_read))
