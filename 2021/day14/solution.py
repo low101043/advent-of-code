@@ -38,7 +38,27 @@ def final_total(template):
     return max_num - min_num
 
 def partTwo(input_text):
-    pass
+    template, insertion_rules = solution_in_list(input_text)
+    print(template)
+    print(insertion_rules)
+
+    for i in range(40):
+        print(i)
+        new_template = ""
+        for i in range(len(template) - 1):
+            to_check = template[i:i+2]
+            if to_check in insertion_rules.keys():
+                new_template = new_template + to_check[0] + insertion_rules[to_check] 
+            else:
+                new_template += to_check[0]
+        new_template += to_check[1]
+
+        template = new_template
+        #print(template)
+
+    #print(template)
+
+    return final_total(template)
 
 
 def solution_in_list(inputText):
