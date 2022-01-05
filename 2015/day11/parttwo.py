@@ -75,4 +75,4 @@ with open("2015/day11/input.txt") as data:
     file_to_read = data.read()
 
 
-print(partone(file_to_read))
+print(partone("hepxxyzz"))
