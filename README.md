@@ -18,7 +18,7 @@ There are no solutions for days which I have not completed.
 10*
 
 ## 2019
-6*
+7*
 
 ## 2020
 29*
@@ -27,6 +27,6 @@ There are no solutions for days which I have not completed.
 19*
 
 ## Overall
-109*
+110*
 
-Average per year: 15.57*
+Average per year: 15.71*

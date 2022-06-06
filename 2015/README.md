@@ -11,6 +11,8 @@ Stars
 - Day 4:  1
 - Day 5:  2
 - Day 6:  2 
+- Day 7:  -
+- Day 8:  -
 - Day 9:  2
 - Day 10: 2
 - Day 11: 2
