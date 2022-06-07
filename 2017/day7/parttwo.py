@@ -40,12 +40,12 @@ def parttwo(input):
     root = partone(input)
 
     tree = makeTree(input.split("\n"))
-    unbalencedNum(tree, root)
+    unbalancedNum(tree, root)
 
     
 
 
-def unbalencedNum(tree, root):
+def unbalancedNum(tree, root):
 
     node_num = -1
     for node in tree:
@@ -55,7 +55,7 @@ def unbalencedNum(tree, root):
 
             child_scores = []
             for child in node[2]:
-                child_score = unbalencedNum(tree, child)
+                child_score = unbalancedNum(tree, child)
 
                 child_scores.append((child, child_score))
 
