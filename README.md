@@ -27,7 +27,10 @@ Also some solutions will require some work offline - EG Day 7 Part two of 2017 I
 ## 2021
 19*
 
+## 2022
+0*
+
 ## Overall
 111*
 
-Average per year: 15.86*
+Average per year: 13.88*
