@@ -13,5 +13,7 @@ Stars
 - Day 6:  2
 - Day 7:  0
 - Day 8:  2
+- Day 9:  0
+- Day 10: 1
 
-- Overall: 14*
+- Overall: 15*
